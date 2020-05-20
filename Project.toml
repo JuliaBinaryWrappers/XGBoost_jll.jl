@@ -1,6 +1,6 @@
 name = "XGBoost_jll"
 uuid = "a5c6f535-4255-5ca2-a466-0e519f119c46"
-version = "0.82.0+2"
+version = "1.1.0+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

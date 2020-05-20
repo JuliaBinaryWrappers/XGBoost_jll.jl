@@ -6,6 +6,7 @@ using CompilerSupportLibraries_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "PATH"
+LIBPATH_default = ""
 
 # Relative path to `xgboost`
 const xgboost_splitpath = ["bin", "xgboost.exe"]
@@ -25,8 +26,9 @@ function xgboost(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::Bool = t
         end
     end
     if adjust_LIBPATH
-        if !isempty(get(ENV, LIBPATH_env, ""))
-            env_mapping[LIBPATH_env] = string(LIBPATH, ';', ENV[LIBPATH_env])
+        LIBPATH_base = get(ENV, LIBPATH_env, expanduser(LIBPATH_default))
+        if !isempty(LIBPATH_base)
+            env_mapping[LIBPATH_env] = string(LIBPATH, ';', LIBPATH_base)
         else
             env_mapping[LIBPATH_env] = LIBPATH
         end
