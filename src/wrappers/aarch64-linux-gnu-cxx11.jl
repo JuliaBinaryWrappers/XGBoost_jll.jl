@@ -53,14 +53,18 @@ function xgboost(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::Bool = t
 end
 
 
+# Inform that the wrapper is available for this platform
+wrapper_available = true
+
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"XGBoost")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
+    # Initialize PATH and LIBPATH environment variable listings
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (CompilerSupportLibraries_jll.PATH_list,))
@@ -70,7 +74,7 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libxgboost_handle = dlopen(libxgboost_path)
+    global libxgboost_handle = dlopen(libxgboost_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libxgboost_path))
 
     global xgboost_path = normpath(joinpath(artifact_dir, xgboost_splitpath...))
@@ -81,5 +85,6 @@ function __init__()
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ':')
     global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
-end  # __init__()
 
+    
+end  # __init__()
