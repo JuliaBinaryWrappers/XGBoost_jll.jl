@@ -1,6 +1,7 @@
 [[XGBoost]]
 arch = "aarch64"
 git-tree-sha1 = "189df733838a75bb863181a0b85b69e8e331bdc7"
+lazy = true
 os = "macos"
 
     [[XGBoost.download]]
@@ -10,6 +11,7 @@ os = "macos"
 arch = "aarch64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "cb5c18f90940a10a24b32991bbe077c763ea6f0f"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -20,6 +22,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "8675d4faeec15afdfe6c15798d4fa669021a3399"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -30,6 +33,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "f725d5324f9261c25df84ae1603d6c3862ee0c0e"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -40,6 +44,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "9243b428dadebd054d764b711d03f72f4041b933"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -51,6 +56,7 @@ arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "9d79ca4f8ed762c726545d4651f4e4596345c27e"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -62,6 +68,7 @@ arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "9dad38b1221db51c4cfe90afecd36a8fa6fa3baf"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -73,6 +80,7 @@ arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "8bbd1d458ceb5b727a8ce0a621d847c226d67e72"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -84,6 +92,7 @@ arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "338a847ee1a1a33340362827fd3cf818eca323bd"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -95,6 +104,7 @@ arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "6cc2952c2905c2b319e8e0561135bd08fe404db5"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -106,6 +116,7 @@ arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "6ece4f04abae064ad4185a0dd588bf8bd89d0eb4"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -117,6 +128,7 @@ arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "8b490d5fadbe94db74bd3ede86a27a458ab9d8da"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -128,6 +140,7 @@ arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "bd29ebe55fdca30e6983f5ec1b5fb559f5bca0f0"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -138,6 +151,7 @@ os = "linux"
 arch = "i686"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "8c4ddde25e51f94cf92fa6f3d11914babf0c365b"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -148,6 +162,7 @@ os = "linux"
 arch = "i686"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "8c7a47307f123bd5f56bedf73be37a4f0fdc7ee3"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -158,6 +173,7 @@ os = "linux"
 arch = "i686"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "b3a509e29906516e24bb0925ff002789bab06792"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -168,6 +184,7 @@ os = "linux"
 arch = "i686"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "a6e9a77d8678d10746cd5ea2ac231aa323a2e958"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -178,6 +195,7 @@ os = "linux"
 arch = "i686"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "4a660d241c0bc2da9420a35a23aa99e264b008fd"
+lazy = true
 os = "windows"
 
     [[XGBoost.download]]
@@ -187,6 +205,7 @@ os = "windows"
 arch = "i686"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "dfffa4a6369d2987940772559ae9415b82e6abbf"
+lazy = true
 os = "windows"
 
     [[XGBoost.download]]
@@ -196,6 +215,7 @@ os = "windows"
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "8a0afd16f5d42ca05af49e209fe102c2d805a94a"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -206,6 +226,7 @@ os = "linux"
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "5691d2456292e6fa2f1caf60673cf053a041f951"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -215,6 +236,7 @@ os = "linux"
 [[XGBoost]]
 arch = "x86_64"
 git-tree-sha1 = "04d6f641a3148df077532d6f033686c6d47d36d3"
+lazy = true
 os = "macos"
 
     [[XGBoost.download]]
@@ -224,6 +246,7 @@ os = "macos"
 arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "e7eb698a7ab5576e85e87241ce9758169dc08857"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -232,8 +255,21 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
+cuda = "11.0"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9a0e3c6bac509298e145586320ad10bea13667d2"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "032172a40fe84d5e9fb8f969b1529af082e15e32adcdf2d5bc0433d49ab0931a"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-linux-gnu-cxx03-cuda+11.0.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "52915e0d30bfc023938d608200c0496c90991437"
+lazy = true
 libc = "glibc"
 os = "linux"
 
@@ -242,8 +278,21 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
+cuda = "11.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3b3d2a86cd8263ca85962e2e2b895ee49a96a778"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "2abac4de6d558e57466e660dbe7047d500da91d0e3d6ba3effdc8edde0958066"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-linux-gnu-cxx11-cuda+11.0.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "43e42e880d646750ea665ff47ca1e20d5b7aab07"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -254,6 +303,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "42805cfa3807a9d040d1a3aa2bbb4e3dfc590ed2"
+lazy = true
 libc = "musl"
 os = "linux"
 
@@ -263,6 +313,7 @@ os = "linux"
 [[XGBoost]]
 arch = "x86_64"
 git-tree-sha1 = "8f945350a31dec2031d94e2a511ca4952b58ea75"
+lazy = true
 os = "freebsd"
 
     [[XGBoost.download]]
@@ -272,6 +323,7 @@ os = "freebsd"
 arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "a39cb14df925f5e3f8efb74450c71ee4a56fd756"
+lazy = true
 os = "windows"
 
     [[XGBoost.download]]
@@ -281,19 +333,9 @@ os = "windows"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "488f406ad4458f873d0b15cccf78ff594459373a"
+lazy = true
 os = "windows"
 
     [[XGBoost.download]]
     sha256 = "848a0ea1ac2b47f48b431ab173c6a225e9ec22daaa9bbab4cff32a2f2281ea51"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-w64-mingw32-cxx11.tar.gz"
-[[XGBoost]]
-arch = "x86_64"
-cuda = "11.0"
-git-tree-sha1 = "52915e0d30bfc023938d608200c0496c90991437"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[XGBoost.download]]
-    sha256 = "d348aba2bf3cb2a21354179a970dc918bb249528d098d31c45fa94b729533f04"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.1+1/XGBoost.v1.7.1.x86_64-linux-gnu-cuda+11.0.tar.gz"

@@ -2,11 +2,12 @@
 export libxgboost, xgboost
 
 using CompilerSupportLibraries_jll
+using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("XGBoost")
 JLLWrappers.@declare_library_product(libxgboost, "libxgboost.so")
 JLLWrappers.@declare_executable_product(xgboost)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
         libxgboost,
         "lib/libxgboost.so",

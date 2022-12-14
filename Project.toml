@@ -12,7 +12,6 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
-NCCL_jll = "4d6d38e4-5b87-5e63-912a-873ff2d649b7"
 
 [compat]
 JLLWrappers = "1.4.0"
