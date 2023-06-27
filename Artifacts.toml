@@ -1,17 +1,17 @@
 [[XGBoost]]
-arch = "powerpc64le"
-cuda = "none"
-git-tree-sha1 = "8efc6ad069af330400a19777e6befc1f902d6ac5"
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3266f293e9fab0b0f37b6bafdaa61fc38f98eb60"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "d48d002bccce66deb22a603316f1263129c3540466612b0f85c565634ea9e140"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.powerpc64le-linux-gnu-cuda+none.tar.gz"
+    sha256 = "f0045c77da047bb09ec3b192a5965cff62183323c53c827daa091956606e31d8"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-linux-gnu-cxx03.tar.gz"
 [[XGBoost]]
 arch = "i686"
-cuda = "none"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "5480c106342fac22244bdf68755df4e2640e59c6"
 lazy = true
 libc = "glibc"
@@ -19,21 +19,21 @@ os = "linux"
 
     [[XGBoost.download]]
     sha256 = "c5e4c1ca210b633e8a9accee63279ec355c785ce653ab4ea9aca1e1ba7e71388"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.i686-linux-gnu-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-linux-gnu-cxx11.tar.gz"
 [[XGBoost]]
-arch = "x86_64"
-cuda = "none"
-git-tree-sha1 = "0b12585240d379418043e3af3fc56fb3cdf4e5e2"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bb4a790f8ec31feed245cb1eb74f754cb5d8000c"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "fb16a6a5e4cea84006858d44efec1a3768662bf601930911e49a460b48f82e26"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-linux-gnu-cuda+none.tar.gz"
+    sha256 = "0bfb9d146827fca573262fc3dcb5ebf90b8e52a8c07db5ff360d6969b5e79366"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.aarch64-linux-gnu-cxx03.tar.gz"
 [[XGBoost]]
 arch = "aarch64"
-cuda = "none"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "32d99127d62a0fd270697778c9ac16799f4205b3"
 lazy = true
 libc = "glibc"
@@ -41,11 +41,23 @@ os = "linux"
 
     [[XGBoost.download]]
     sha256 = "5bac7df5001872738700a3e8c4f553b29afec0e51555e322dcd9645f99f25cb6"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.aarch64-linux-gnu-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.aarch64-linux-gnu-cxx11.tar.gz"
 [[XGBoost]]
 arch = "armv6l"
 call_abi = "eabihf"
-cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2e4bb4b3eff776d494c5cdfdf58ec5b5f6b5b45b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "41c2919362dc6a30033862d42d289787948447f0b427a6869c0a5c1ccd42580c"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[XGBoost]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "83944c2f32ee79fea2d88d2251ae1a464424e997"
 lazy = true
 libc = "glibc"
@@ -53,11 +65,23 @@ os = "linux"
 
     [[XGBoost.download]]
     sha256 = "b675e577661a38802126c2f431e8541b8d50e7bb4fd5c49667a797b7a251c942"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.armv6l-linux-gnueabihf-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[XGBoost]]
 arch = "armv7l"
 call_abi = "eabihf"
-cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4341092a52354290eea9ad5d5358d69096ecff6f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "21e3570ca112b6683f42be3233032da434fd68fec0e71bd0f3049ac79287e037"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[XGBoost]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "c21b81896298341368adb71e7f5d43b377a269db"
 lazy = true
 libc = "glibc"
@@ -65,76 +89,257 @@ os = "linux"
 
     [[XGBoost.download]]
     sha256 = "deafd8b098487685bb4861ff5fe762cc1b449373202d54cb5a1756d26c8c0594"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.armv7l-linux-gnueabihf-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[XGBoost]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "01e191893fae4660248733e74a71dee6a2d49d15"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "35374e7200dd3b55d59ba338f2d1c7fa205336cbf69d92b35ec6d509a3349ec1"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[XGBoost]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8efc6ad069af330400a19777e6befc1f902d6ac5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "d48d002bccce66deb22a603316f1263129c3540466612b0f85c565634ea9e140"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[XGBoost]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "02155a765a2bdcba788a01bd4d98286695907283"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "597441ec1557ec600d0111e093be3df57611a9e32852a361117b1e5dd4e7ab46"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-linux-musl-cxx03.tar.gz"
+[[XGBoost]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "20d2e4161eadf99570c9ddc8845f9c0ad90fbd77"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "74411f38add3c25d314fa61cf3abacfd7b33187ce399b0b21afc919bb855bce6"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-linux-musl-cxx11.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "831c7bf02e60718cc52dcadf8ab32ffc3dd75009"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "8f2a3630f4f64c4c3aa35a5a5a09a0e620aa1b6a9301f41876239bc937dad73d"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx03-cuda+none.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
+cuda = "none"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0b12585240d379418043e3af3fc56fb3cdf4e5e2"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "fb16a6a5e4cea84006858d44efec1a3768662bf601930911e49a460b48f82e26"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx11-cuda+none.tar.gz"
+[[XGBoost]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2f6d0ee791f9dfca9c7b5f0daab1484c03b1ba10"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "0149ee3266c885962e16f64268d392c1e41d39d76340e9e83dc83b4273b0a0cf"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.aarch64-linux-musl-cxx03.tar.gz"
+[[XGBoost]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "eb9215f21b9f189ca9d48e82d5e4f82e83722ab9"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "04abb8d4b26c028b49baf047b6d8f15113aeb3be4a8f4de6ce237f400bb2995d"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.aarch64-linux-musl-cxx11.tar.gz"
+[[XGBoost]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "55a5064c18e332173742be8838f0a148badf6a20"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "27675f529c143682fdb6eda9152ff182323e0ac43ea69787bc8780e90bb186fa"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[XGBoost]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ea4a07f53c6da5da45eda1f6b84d9bf9a00028fb"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "4bf2e7aefb88b9cef07c926c2c7bab5c80236831137a5474c2db63a8f67e5ab5"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[XGBoost]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d0f289bf13b49deb38f7d7e0bb33e9e06c7bd780"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "4450ac24b354afa71b17928e77604594ae3fd1e97da48b8b8521cd3622c923f8"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[XGBoost]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1a3d2e06eed3dc7eda4af2b3ffbc0df1916194d8"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "721123f8d9c694c7c495dae6c8ff6940ec3a8a6314b04cb0d45de553c5f8c2d2"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
 git-tree-sha1 = "d33a6e5b25ca06c6d8ae799d7d0a7192fbf2f5b5"
 lazy = true
 os = "macos"
 
     [[XGBoost.download]]
     sha256 = "1d88d0dbe4fd6230b800812d9c30ee69d4c8b9d49d3eab867511cd6beda1b6d8"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-apple-darwin-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-apple-darwin.tar.gz"
 [[XGBoost]]
 arch = "aarch64"
-cuda = "none"
 git-tree-sha1 = "e384296d1b27b8cace34414e78e034c1e045c8c2"
 lazy = true
 os = "macos"
 
     [[XGBoost.download]]
     sha256 = "3e4fabe40e917b12cd0e55e72affb6bad57364d05a6d6559f1811c1a63fd052f"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.aarch64-apple-darwin-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.aarch64-apple-darwin.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
-cuda = "none"
-git-tree-sha1 = "3c3ac2944ef8e676b9c9d65d25bc7d499f96d6b8"
+git-tree-sha1 = "d25a72c060f8ac8513e88cde1b8190a3b1fa3b9d"
 lazy = true
 os = "freebsd"
 
     [[XGBoost.download]]
-    sha256 = "57f0f5f0eb03eaa816bde47ea7831d83bf658753c307ac94e51fb8a66575adc8"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-unknown-freebsd-cuda+none.tar.gz"
+    sha256 = "dd7eead4546fc342714f330cdf2ff578f1af8affc55652ff3084cb198a209df6"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-unknown-freebsd.tar.gz"
 [[XGBoost]]
 arch = "i686"
-cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "19d1a90fcd0c298afdad2f5e21a7ffd1b703a859"
+lazy = true
+os = "windows"
+
+    [[XGBoost.download]]
+    sha256 = "6ec886ee97a2c80938ecfedc630a7acd891fc5943acb0dd9b0b440c21cf77fc9"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-w64-mingw32-cxx03.tar.gz"
+[[XGBoost]]
+arch = "i686"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "20df4797da55f4147baa1f6f6f7892205b56b619"
 lazy = true
 os = "windows"
 
     [[XGBoost.download]]
     sha256 = "31173d8aa3e24c31c7899b4f2f73ac227994ea001fe7b244301bc9e6def9ba1a"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.i686-w64-mingw32-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.i686-w64-mingw32-cxx11.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
-cuda = "none"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4b98a86356fa4862cef50281a334608b21077e48"
+lazy = true
+os = "windows"
+
+    [[XGBoost.download]]
+    sha256 = "183acb6626c622f244e4562afbfe6aee249c0470f8b160909ecbdac9a9e4244d"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-w64-mingw32-cxx03.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
 git-tree-sha1 = "9dfc032fae8c47b2c94162ef5e3a40a8789d4824"
 lazy = true
 os = "windows"
 
     [[XGBoost.download]]
     sha256 = "49927984dbe856c56c05a5b7b0df3b2d9b90b2621d8b18f5502d1cbc9d150d56"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-w64-mingw32-cuda+none.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-w64-mingw32-cxx11.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "11.0"
-git-tree-sha1 = "15011d997969bd157039d730dd990ac0f7bf9c93"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ee40f4647d9a472d19f638a46acd9ce797375219"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "8d8cd247e834200b475fbfd31406b159a8ac83a9b835f5535624d309e651f905"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-linux-gnu-cuda+11.0.tar.gz"
+    sha256 = "20dbca93ffaf2a2fb2a612c8eee1d4d953efb7b7917a9f4d6265f2d6b96e0353"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx03-cuda+11.0.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
+cuda = "11.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "42db8ca64e1285ad9ea9ec4f6b599fa8c12b3f9c"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "091e1e4534b59e7778f8b3075a904d3af581cc13c66532d773490a6f09f3f38a"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx11-cuda+11.0.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "ef9bd93b4965602cd76eced101f5fbf39f809ed3"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "61c9a44c39123d6a0776299c956320103e6ce8cd"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "332d5140229a9313f8edf57bbbfec05705e2c2ae8c0e8cf0fba04918ca96de53"
-    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+1/XGBoost.v1.7.5.x86_64-linux-gnu-cuda+12.0.tar.gz"
+    sha256 = "ba81df045471982fc6f73e807531096a1a23c3a55d7238a3106ad835b4baa394"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx03-cuda+12.0.tar.gz"
+[[XGBoost]]
+arch = "x86_64"
+cuda = "12.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "43a16a2fe0f0961deff343e025ba317dcb1e1300"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[XGBoost.download]]
+    sha256 = "9fdd39f2ec0425f32beb0eba1f2a3a765e06284e5d6e0c02008a2e288840c463"
+    url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v1.7.5+2/XGBoost.v1.7.5.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz"
