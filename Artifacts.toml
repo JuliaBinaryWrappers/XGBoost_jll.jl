@@ -299,47 +299,47 @@ os = "windows"
 arch = "x86_64"
 cuda = "11.4"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a8574e2106675b024a0810ebd4e56d4dfe876343"
+git-tree-sha1 = "20ccd855d0189e8615cc6e0f563b3deaca5db322"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "9e1fafb293cc66792132bf90759d76893bb342ccda7f93a2e746457c7ab95912"
+    sha256 = "718944aa563d44ed4a46399e64ac6e58baf0247ccc5aea25b42b5ef3f07f8a65"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v2.0.0+0/XGBoost.v2.0.0.x86_64-linux-gnu-cxx03-cuda+11.4.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "11.4"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c37e62152fcb339f3308c77881bc6c34af62c64e"
+git-tree-sha1 = "bf2c9b1bd859d8533f4a6280058b5b4e2c21a8c4"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "82ecbc479311b9613212f167c3ed36c45e216954bf5899992c2c63f280dd979b"
+    sha256 = "b05abf63272eb68242e7d4f99344ce59eae406934e50aa8e247671af028dd99e"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v2.0.0+0/XGBoost.v2.0.0.x86_64-linux-gnu-cxx11-cuda+11.4.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "12.0"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a0bbb6ec1e5291f9dfcb6a0f412dea7388f63ea2"
+git-tree-sha1 = "7b3b4209ef1bb7b4f5f0a3340a4d379becec0eaa"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "36a550170e4e25e84b210de7762e6171832a9fc6c48fd8be281e3cc762f34849"
+    sha256 = "3b644759fc73ea6118210e6913471ff7949181eb518e4010c48da6587d296f5c"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v2.0.0+0/XGBoost.v2.0.0.x86_64-linux-gnu-cxx03-cuda+12.0.tar.gz"
 [[XGBoost]]
 arch = "x86_64"
 cuda = "12.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "37c59839cc500e17fd7ca10234cf623d6c2329c3"
+git-tree-sha1 = "f051efd4d9f45569cc348cbbb43db27e0394d232"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[XGBoost.download]]
-    sha256 = "b88aaef6f3fba8247872979a5ee2041204650e7006f2bebe964ad20665d9609c"
+    sha256 = "e1f720e769c03dcaf7da6fa58c0a0e1085fe0e911305c4058b52816fb0a7cb6a"
     url = "https://github.com/JuliaBinaryWrappers/XGBoost_jll.jl/releases/download/XGBoost-v2.0.0+0/XGBoost.v2.0.0.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz"
